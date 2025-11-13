@@ -39,7 +39,7 @@ jobs:
       - name: Checkout Kernel Source
         uses: actions/checkout@v4
         with:
-          repository: ccc62/xiaomi_kernel_odin
+          repository: Xboxcore/xiaomi_kernel_odin
           ref: xin1
 
       - name: Setup Environment
