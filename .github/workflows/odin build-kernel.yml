@@ -19,8 +19,8 @@ on:
 env:
   DEVICE_NAME: "xiaomi_mix4"
   DEVICE_CODENAME: "odin"
-  KERNEL_SOURCE: "https://github.com/ccc62/xiaomi_kernel_odin.git"
-  KERNEL_BRANCH: "muqianyong"
+  KERNEL_SOURCE: "https://github.com/Xboxcore/xiaomi_kernel_odin.git"
+  KERNEL_BRANCH: "xin1"
   PACK_METHOD: "Anykernel3"
   AK3_SOURCE: "https://github.com/osm0sis/AnyKernel3.git"
   AK3_BRANCH: "master"
@@ -40,7 +40,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: ccc62/xiaomi_kernel_odin
-          ref: muqianyong
+          ref: xin1
 
       - name: Setup Environment
         run: |
